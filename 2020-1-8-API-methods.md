@@ -1,11 +1,17 @@
+---
+title: 'API Methods'
+date: '2020-04-08'
+author: 'Chandu Sree'
+---
+
 APIs enable us to develop different kinds of web applications having
 operations like CRUD(create, retrieve, update, delete).
 
 Here we can discuss different API methods and their use cases.
 
-[Imgur](https://i.imgur.com/h3K7u72.jpg)
+![Imgur](https://i.imgur.com/h3K7u72.jpg)
 
-GET API :
+### GET API :
 
 We can use GET requests to retrieve resource representation or
 information only, we cannot modify it in any way. They do not
@@ -26,7 +32,7 @@ HTTP response code 400(Bad Request).
 
 Example: HTTP GET http://www.appdomain.com /users
 
-POST API :
+### POST API :
 
 We can use post APIs to create new subordinate resources. A file is
 subordinate to a directory containing it or a row is subordinate to a
@@ -40,7 +46,7 @@ this methods are not cacheable. POST is neither safe or idempotent.
 
 Example: HTTP POST http://www.appdomain.com/users
 
-PUT API :
+### PUT API :
 
 We can use PUT API’s primarily to update existence resource if a new
 resource has been created by the PUT API,the origin server must
@@ -55,7 +61,7 @@ PUT requests are made on a single resource.
 
 Example: HTTP PUT http://www.appdomain.com/users/123
 
-DELETE API:
+### DELETE API:
 
 DELETE APIs are used to delete resources identified by the request
 URL. If the response includes an entity .An entity describing the
