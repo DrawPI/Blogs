@@ -1,5 +1,5 @@
 ---
-title: 'QUERY AND REQUEST SECTION'
+title: 'Query and Request Section'
 date: '2020-04-08'
 author: 'Chandu Sree'
 ---
