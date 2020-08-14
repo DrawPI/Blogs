@@ -1,3 +1,8 @@
+---
+title: 'QUERY AND REQUEST SECTION'
+date: '2020-04-08'
+author: 'Chandu Sree'
+---
 Query parameters:
 
 Have you ever come through long statements in URLs with ( ?, &, and
