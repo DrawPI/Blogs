@@ -1,3 +1,9 @@
+---
+title: 'API Methods'
+date:'2020-01-08'
+author: 'Chandu Sree'
+---
+
 Well, managing APIs turns out not to be very easy when you have a lots of endpoints.
 
 And it is very important to group and organize these end points.  
