@@ -1,6 +1,6 @@
 ---
 title: 'API Methods'
-date:'2020-01-08'
+date: '2020-01-08'
 author: 'Chandu Sree'
 ---
 
