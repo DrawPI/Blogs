@@ -13,7 +13,7 @@ Have something to contribute? Publish your own blog!
 #### Steps:
 
 1. Fork, and clone this repository.
-2. Create a new markdown file `<year>-<date>-<month>-<your-blog-title>.md` in the root folder. Please note the format of the file-name.
+2. Create a new markdown file `<year>-<month>-<date>-<your-blog-title>.md` in the root folder. Please note the format of the file-name.
 3. In this file, add the following in the first line:
 ```
 ---
@@ -26,7 +26,7 @@ author: '<YOUR-NAME>'
 ```
 4. Start writing!
 5. If you need to add images, upload those images in the `public` folder with the name of your markdown file, and an image name. For example,
-`<year>-<date>-<month>-<your-blog-title>-image1.jpg`
+`<year>-<month>-<date>-<your-blog-title>-image1.jpg`
 
 6. Once you're done,
     - `git add .`
