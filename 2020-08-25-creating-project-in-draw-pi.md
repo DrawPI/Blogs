@@ -1,6 +1,6 @@
 ---
 title: 'Creating a Project in DrawPI'
-date: '2020-04-08'
+date: '2020-25-08'
 author: 'Chandu Sree'
 ---
 
