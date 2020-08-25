@@ -1,6 +1,6 @@
 ---
-title: 'API Methods'
-date: '2020-01-08'
+title: 'Managing APIs using Collections'
+date: '2020-25-08'
 author: 'Chandu Sree'
 ---
 
