@@ -1,8 +1,9 @@
 ---
-Title:Introduction of DB Schema
-Date: 2020-01-08
-Author:Vindhya Srivastava
+title: 'Introduction of DB Schema'
+date: '2020-01-08'
+author: 'Vindhya Srivastava'
 ---
+
 # Introduction of DB Schema
 
 ## Greeting Folks,

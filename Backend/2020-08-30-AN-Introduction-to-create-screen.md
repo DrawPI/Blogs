@@ -1,7 +1,7 @@
 ---
-Title : An Introduction To Create Screen
-Date: 2020-01-08
-Author: Vindhya Srivastava
+title: 'An Introduction To Create Screen'
+date: '2020-01-08'
+author: 'Vindhya Srivastava'
 ---
 # An Introduction to Create Screen
 
