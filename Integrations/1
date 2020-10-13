@@ -1,0 +1,19 @@
+---
+title: 'Integrating JWT in your API'
+date: '2020-10-12'
+author: 'Utkarsh Singh'
+---
+
+DrawPI now supports JWT authentication and allows you to make endpoints private.
+
+To integrate it into your project API:
+
+- Simply click on Integrations > JWT Middleware. 
+	- This will add the JWT configuration code to your project behind-the-scenes.
+	- 2 new routes would be created. These details would be available in your own project API's documentation too:
+		- **/jwt/signup**: This is a POST request that registers a new user to the **users** database of your project API. It requires an `email`, `password`, and `confirm_password` field. This route will just return success and failure messages. __No access token will be returned on signup__.
+		- **/jwt/login**: This is a POST request that returns the access token and user object if the login credentials are correct. The login credentials need to be sent in the Authorization header as 'username', 'password' fields.
+
+- Whenever you need to make a route private, that is, only accessible to someone who has the access token, then you can click on Add Middleware > JWT Auth. That's it. The Middleware will now pass the request only when the correct credentials are met in the Bearer token of the Authorization header.
+
+You do not need to worry about knowing or explaining to anyone else what any of the request requires or what JWT is doing behind-the-scenes. This will be provided in the documentation of your project API.
